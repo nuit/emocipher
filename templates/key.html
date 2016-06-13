@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>EMO CIPHER - Garoa Hacker Club - Bsides Latam 2016</title>
+      <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link href='/static/css/key.css' rel='stylesheet' type='text/css' />
+  <body><center>☔ EmoCipher - Garoa Hacker Club, Bsides Latam 2016.
+    <BR><BR><b>ID: {{ id }}</b><BR><BR>
+    <p id="textlimit">
+      {% for key, value in cdict.iteritems() %}       
+        {{ key }}={{ value.decode('utf-8') }} ; 
+      {% endfor %}
+    <p></center>
+  </body>
+ </html>

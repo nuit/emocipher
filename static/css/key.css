@@ -1,0 +1,39 @@
+table {
+	border: 2px solid black;
+    border-collapse: collapse;
+    width: 60px;
+    font: 12px Open Sans;
+    text-align:center;
+}
+
+tr, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 60px;
+    font: 12px Open Sans;
+    text-align:center;
+}
+
+/*site container*/
+.wrapper{
+  width:420px;
+  margin:$auto;
+}
+
+#textlimit
+{  
+    font:17px Open Sans;
+    width: 200px;
+    height: 47px;
+    word-wrap: break-word;
+    text-align:center;
+}
+
+
+h3{
+  text-align:$align;
+  padding:20px 0px 0px 0px;
+  font:13px Open Sans;
+  margin:0px;
+}
+

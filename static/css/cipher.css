@@ -1,0 +1,69 @@
+body {
+  /*background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png);*/
+  background:url("/static/img/garoa.jpg");
+  background-repeat: no-repeat;        
+  background-position:center;       
+  width: 100%;            
+  height: 615px;       
+  margin-left: auto;      
+  margin-right: auto;     
+}
+
+#textlimit
+{   
+    width: 390px;
+    height: 47px;
+    word-wrap: break-word;
+    text-align:center;
+}
+
+#footer {
+   text-align: center;
+   position:fixed;
+   margin-left: auto;      
+   margin-right: auto; 
+   left:0px;
+   bottom:1px;
+   height:230px;
+   width:70%;
+   background:#F8F8FF;
+}
+
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+@media only screen and (max-width: 800px) {
+                body { font-size:100%;}
+}  
+     
+@media only screen and (max-width: 1100px) {
+                body { font-size:120%;}
+}  
+
+table {
+	border: 2px solid black;
+    border-collapse: collapse;
+    width: 60px;
+    font: 14px Open Sans;
+    text-align:center;
+}
+
+tr, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 60px;
+    font: 14px Open Sans;
+    text-align:center;
+}
+
+
+.center{
+	left:25%;
+	width:50%;
+	height:50%;
+	top:6%;
+	position:absolute;
+	text-align:center;
+}
